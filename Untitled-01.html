@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello world</title>
+    <style>
+        input:focus {
+            background-color: rgb(245, 190, 238);
+        }
+    </style>
+</head>
+
+<body>
+    are you ok?
+    <br />
+    <img src="姜泰莉.jpg" title="姜泰莉" /><br />
+    <a href="https://mingjiabaike.com/doc-view-6154.html">姜泰莉</a>
+    <!--  -->
+    <h2>水果</h2>
+    <ul>
+        <li>苹果</li>
+        <li>香蕉</li>
+    </ul>
+    <form>
+        <!-- <form action="xxx.php" method="get"> -->
+        用户名:<input type="text" value="汉字数字下划线" minlength="5" maxlength="10"><br> 密码:
+        <input type="password" name="kw" id="kw"><br> 性别:男
+        <input type="radio" name="sex">女<input type="radio" name="sex">保密<input type="radio" name="sex"><br>
+        <!-- 因为有name的存在,所以性别选项实现多个中只能选一个 -->
+        喜好:篮球
+        <input type="checkbox" checked> &nbsp; &nbsp;学习<input type="checkbox">&nbsp;&nbsp; 吃肉<input type="checkbox">
+        <br>
+        <input type="submit" value="提交"><input type="reset" value="重新填写"><br> 上传文件
+        <input type="file">
+        <label for="kw">密码</label>
+    </form>
+    <form>
+        籍贯:
+        <select name="籍贯" id="籍贯">
+            <option value="籍贯">北京</option>
+            <option value="籍贯" selected>河南</option>
+            <option value="籍贯">湖南</option>
+            <option value="籍贯">河北</option>
+        </select>
+    </form>
+    <table border="2" border="600">
+        <tr>
+            <td>学历:</td>
+            <td><input type="text" name="学历" value="幼儿园"></td>
+        </tr>
+        <tr>
+            <td>智商:</td>
+            <td><select name="智商" id="智商">
+                <option value="智商" selected>10</option>
+                <option value="智商">160</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="#">登录</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <h5>我承诺</h5>
+                <ul>
+                    <li>好好学习</li>
+                    <li>认真打球</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
